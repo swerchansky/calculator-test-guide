@@ -44,7 +44,7 @@ res=resultText
 (листаем до "Как настроить и запустить эмулятор Android Studio")
 
 - в dependencies в build.gradle файле добавить  
-``androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'``
+``androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'``  
 ``androidTestImplementation 'org.hamcrest:hamcrest-core:1.3'``
 
 ![alt text](gradle.png)
