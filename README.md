@@ -43,6 +43,14 @@ res=resultText
 [Гайд по запуску эмулятора](https://tunecom.ru/virtual-machines/390-ispolzuem-android-studio-v-kachestve-jemuljatora-smartfona.html)
 (листаем до "Как настроить и запустить эмулятор Android Studio")
 
-- ```java -jar hwchecker.jar HW1C {directory}```  
+- в dependencies в build.gradle файле добавить  
+``androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'``
+``androidTestImplementation 'org.hamcrest:hamcrest-core:1.3'``
+
+![alt text](gradle.png)
+
+- запустить через консоль: ```java -jar hwchecker.jar HW1C {directory}```  
 где {directory} - путь к вашему проекту.
+
+
 
